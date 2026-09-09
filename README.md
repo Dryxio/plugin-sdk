@@ -21,7 +21,7 @@ The reverse is complete; **porting all useful findings into this SDK is ongoing*
 
 ## What does “LLM-assisted” mean?
 
-LLMs and [`auto-re-agent`](https://github.com/Dryxio/auto-re-agent) helped analyze and organize the reverse-engineering work. They are not part of the SDK and do not run in your plugin or in GTA: San Andreas.
+LLMs and [ReAgent](https://github.com/Dryxio/reagent) helped analyze and organize the reverse-engineering work. They are not part of the SDK and do not run in your plugin or in GTA: San Andreas.
 
 Corrections are not accepted because an LLM suggested them. Candidate findings are checked against the game in both decompiled code and assembly before they are transferred to the reversed source and then to Plugin-SDK. The executable is the source of truth.
 
@@ -105,4 +105,4 @@ Please keep one logical correction per change and avoid unrelated formatting chu
 
 This project builds on the work of DK22Pac and the many contributors to [Plugin-SDK](https://github.com/DK22Pac/plugin-sdk). GTA community researchers, mod authors, the MTA team, Sanny Builder contributors, and GTAForums members supplied much of the knowledge that made the original SDK possible.
 
-The reverse-engineering workflow was developed around [`auto-re-agent`](https://github.com/Dryxio/auto-re-agent). See [LICENSE](LICENSE) for this repository's license.
+The reverse-engineering workflow was developed around [ReAgent](https://github.com/Dryxio/reagent). See [LICENSE](LICENSE) for this repository's license.
